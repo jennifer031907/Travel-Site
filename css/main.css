@@ -4,35 +4,29 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav-bar {
-    background-color: #FFFFFF;
-    position: sticky;
-    display:flex;
-    justify-content: space-between;
+.header {
+    background-color: #FEFAF5;
     padding: 0% 6%;
+    display: flex;
+    flex-direction: row;
 }
 
-.nav-bar--title {
-    display:flex;
+.header__text {
+    
 }
 
-.nav-bar__list {
-    display:flex;
-    justify-content: space-between;
-    list-style: none;
-    height: 30px;
-    width: 30%;
+.header__pic {
+    
+    
 }
 
-.nav-bar__list--item{
-    border-bottom: 4px solid #DB7A4E;
-}
-.nav-bar__list--link {
-    text-decoration: none;
-    color:black;
-    display:inline-block;
+.header__pic--image {
+
+    width: 100%;
+
 }
 
-li {
-    display:inline-block;
+.header__text--title {
+
+    font-size: 2.5em;
 }
