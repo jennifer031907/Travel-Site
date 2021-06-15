@@ -1,0 +1,38 @@
+body {
+    position: relative;
+    color: #335576;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar {
+    background-color: #FFFFFF;
+    position: sticky;
+    display:flex;
+    justify-content: space-between;
+    padding: 0% 6%;
+}
+
+.nav-bar--title {
+    display:flex;
+}
+
+.nav-bar__list {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 30px;
+    width: 30%;
+}
+
+.nav-bar__list--item{
+    border-bottom: 4px solid #DB7A4E;
+}
+.nav-bar__list--link {
+    text-decoration: none;
+    color:black;
+    display:inline-block;
+}
+
+li {
+    display:inline-block;
+}
