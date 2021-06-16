@@ -1,6 +1,11 @@
-body{
-
+body {
     margin: 0;
+    color: #335576;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    display:inline-block;
 }
 
 .nav-bar {
@@ -22,17 +27,14 @@ body{
     width: 30%;
 }
 
-.nav-bar__list--item{
+.nav-bar__list--active{
     border-bottom: 4px solid #DB7A4E;
 }
+
 .nav-bar__list--link {
     text-decoration: none;
     color:black;
-    display:inline-block;
     font-size: 20px;
-}
-
-li {
     display:inline-block;
 }
 
@@ -40,40 +42,31 @@ li {
     padding: 2% 6%;
     display: flex;
     justify-content: space-between;
-
+    background-color: #FEFAF5;
 }
 
 .footer__section {
-
     width: 45%;
 }
 
 .footer__section--subtitles {
-
     color: #DB7A4E;
-
 }
 
 .footer__section__days {
-
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .footer__section--icon {
-    
     max-height: 15%;
-    
 }
 
 .footer img {
-    
     margin-right: 3%;
-
 }
 
 .footer__section--title {
     margin-bottom: 28%;
 }
-   

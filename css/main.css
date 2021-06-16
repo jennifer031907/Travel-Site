@@ -1,14 +1,8 @@
-body {
-    position: relative;
-    color: #335576;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header, footer {
+header {
     background-color: #FEFAF5;
-
 }
+
 .header {
-    
     padding: 4% 6%;
     display: flex;
     flex-direction: row;
@@ -20,9 +14,7 @@ header, footer {
 }
 
 .header__pic--image {
-
     width: 90%;
-
 }
 
 .header__text--title {
@@ -42,13 +34,14 @@ header, footer {
     padding: 2% 8%;
     border-radius: 100px;
     font-size: medium;
+}
 
+.recommendation {
+    margin-bottom: 7%;
 }
 
 .recommendation--title {
-   
     padding: 3% 6% ;
-   
 }
 
 .recommendation__cards {
@@ -61,7 +54,6 @@ header, footer {
     width: 300px;
     position: relative;
     margin-right: 2%;
-
 }
 
 .recommendation__cards__card--image {
@@ -77,9 +69,4 @@ header, footer {
     bottom: 0 ;
     right: 5%;
     color: white;
-}
-
-.recommendation {
-
-    margin-bottom: 7%;
 }
