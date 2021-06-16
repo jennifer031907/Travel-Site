@@ -41,3 +41,38 @@ body {
     font-size: medium;
 
 }
+
+.recommendation--title {
+   
+    padding: 3% 6% ;
+   
+}
+
+.recommendation__cards {
+    display: flex;
+    justify-content: center;
+}
+
+.recommendation__cards__card {
+    height: 500px;
+    width: 300px;
+    position: relative;
+    margin-right: 2%;
+
+}
+
+.recommendation__cards__card--image {
+    border: 1px solid rgba(0,0,0, .2) ;
+    border-radius: 5px;
+    box-shadow: 20%;
+    height: inherit;
+    width: inherit;
+}
+
+.recommendation__cards__card--title {
+    position:absolute;
+    bottom: 0 ;
+    right: 5%;
+    color: white;
+}
+
