@@ -64,7 +64,7 @@ body {
 .recommendation__cards__card--image {
     border: 1px solid rgba(0,0,0, .2) ;
     border-radius: 5px;
-    box-shadow: 20%;
+    box-shadow: 0 4px rgba(0,0,0, .2) ;
     height: inherit;
     width: inherit;
 }
