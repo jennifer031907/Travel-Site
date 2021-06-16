@@ -35,3 +35,45 @@ body{
 li {
     display:inline-block;
 }
+
+.footer {
+    padding: 2% 6%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__section {
+
+    width: 45%;
+}
+
+.footer__section--subtitles {
+
+    color: #DB7A4E;
+
+}
+
+.footer__section__days {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer__section--icon {
+    
+    max-height: 15%;
+    
+}
+
+.footer img {
+    
+    margin-right: 3%;
+
+}
+
+.footer__section--title {
+    margin-bottom: 28%;
+}
+   

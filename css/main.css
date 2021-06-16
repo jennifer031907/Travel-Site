@@ -3,9 +3,12 @@ body {
     color: #335576;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.header {
+header, footer {
     background-color: #FEFAF5;
+
+}
+.header {
+    
     padding: 4% 6%;
     display: flex;
     flex-direction: row;
@@ -76,3 +79,7 @@ body {
     color: white;
 }
 
+.recommendation {
+
+    margin-bottom: 7%;
+}
