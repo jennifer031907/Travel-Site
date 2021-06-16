@@ -6,27 +6,38 @@ body {
 
 .header {
     background-color: #FEFAF5;
-    padding: 0% 6%;
+    padding: 4% 6%;
     display: flex;
     flex-direction: row;
 }
 
-.header__text {
-    
-}
-
 .header__pic {
-    
-    
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header__pic--image {
 
-    width: 100%;
+    width: 90%;
 
 }
 
 .header__text--title {
-
+    width: 86%;
     font-size: 2.5em;
+}
+
+.header__text--slogan {
+    margin: 7% 0 5%;
+    width: 110%;
+}
+
+.header__text--button {
+    background-color: #DB7A4E ;
+    color: white;
+    border: none;
+    padding: 2% 8%;
+    border-radius: 100px;
+    font-size: medium;
+
 }

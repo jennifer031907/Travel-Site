@@ -1,3 +1,8 @@
+body{
+
+    margin: 0;
+}
+
 .nav-bar {
     background-color: #FFFFFF;
     position: sticky;
@@ -25,6 +30,7 @@
     text-decoration: none;
     color:black;
     display:inline-block;
+    font-size: 20px;
 }
 
 li {
