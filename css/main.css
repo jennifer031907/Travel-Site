@@ -1,17 +1,8 @@
-body {
-    position: relative;
-    color: #335576;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header, footer {
-    background-color: #FEFAF5;
-
-}
 .header {
-    
     padding: 4% 6%;
     display: flex;
     flex-direction: row;
+    background-color: #FEFAF5;
 }
 
 .header__pic {
@@ -20,9 +11,7 @@ header, footer {
 }
 
 .header__pic--image {
-
     width: 90%;
-
 }
 
 .header__text--title {
@@ -32,7 +21,7 @@ header, footer {
 
 .header__text--slogan {
     margin: 7% 0 5%;
-    width: 110%;
+    width: 85%;
 }
 
 .header__text--button {
@@ -42,13 +31,14 @@ header, footer {
     padding: 2% 8%;
     border-radius: 100px;
     font-size: medium;
+}
 
+.recommendation {
+    margin-bottom: 7%;
 }
 
 .recommendation--title {
-   
     padding: 3% 6% ;
-   
 }
 
 .recommendation__cards {
@@ -61,7 +51,6 @@ header, footer {
     width: 300px;
     position: relative;
     margin-right: 2%;
-
 }
 
 .recommendation__cards__card--image {
@@ -77,9 +66,4 @@ header, footer {
     bottom: 0 ;
     right: 5%;
     color: white;
-}
-
-.recommendation {
-
-    margin-bottom: 7%;
 }
